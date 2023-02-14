@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.product-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+}
+.data-container {
+  margin-left: 10px;
+}
+.product-image {
+  width: 400px;
+  height: 460px;
+}
+.rating-container {
+  width: 80px;
+}
+.review-container {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+}
+.count-button {
+  height: 20px;
+}
+.count {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.cart-button {
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.similar-products {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .image-container {
+    flex-direction: column;
+    width: auto;
+  }
+  .similar-products {
+    margin-top: 30px;
+  }
+}
